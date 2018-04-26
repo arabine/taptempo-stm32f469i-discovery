@@ -1,0 +1,10 @@
+convert -background black -fill white -gravity Center -size 100x200 -font DejaVu-Sans-Mono  caption:"0" 0.bmp
+convert -background black -fill white -gravity Center -size 100x200 -font DejaVu-Sans-Mono  caption:"1" 1.bmp
+convert -background black -fill white -gravity Center -size 100x200 -font DejaVu-Sans-Mono  caption:"2" 2.bmp
+convert -background black -fill white -gravity Center -size 100x200 -font DejaVu-Sans-Mono  caption:"3" 3.bmp
+convert -background black -fill white -gravity Center -size 100x200 -font DejaVu-Sans-Mono  caption:"4" 4.bmp
+convert -background black -fill white -gravity Center -size 100x200 -font DejaVu-Sans-Mono  caption:"5" 5.bmp
+convert -background black -fill white -gravity Center -size 100x200 -font DejaVu-Sans-Mono  caption:"6" 6.bmp
+convert -background black -fill white -gravity Center -size 100x200 -font DejaVu-Sans-Mono  caption:"7" 7.bmp
+convert -background black -fill white -gravity Center -size 100x200 -font DejaVu-Sans-Mono  caption:"8" 8.bmp
+convert -background black -fill white -gravity Center -size 100x200 -font DejaVu-Sans-Mono  caption:"9" 9.bmp

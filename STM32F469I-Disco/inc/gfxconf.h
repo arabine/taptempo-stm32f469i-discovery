@@ -82,14 +82,22 @@
 
 /* GDISP fonts to include */
 #define GDISP_INCLUDE_FONT_UI2	TRUE
+#define GDISP_INCLUDE_FONT_LARGENUMBERS          FALSE
 
 /* Features for the GWIN subsystem. */
 #define GWIN_NEED_WINDOWMANAGER	TRUE
 #define GWIN_NEED_WIDGET		TRUE
 #define GWIN_NEED_BUTTON		TRUE
+#define GWIN_NEED_LABEL         TRUE
 
 /* Features for the GINPUT subsystem. */
 #define GINPUT_NEED_MOUSE		TRUE
+#define GINPUT_TOUCH_NOCALIBRATE FALSE
+#define GINPUT_TOUCH_NOCALIBRATE_GUI FALSE
+
+#define GDISP_NEED_MULTITHREAD	TRUE
+#define GFX_USE_GQUEUE	TRUE
+#define GQUEUE_NEED_ASYNC	TRUE
 
 #define GFX_USE_GFILE                           TRUE
 #define GFILE_NEED_ROMFS                        TRUE
