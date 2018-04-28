@@ -31,5 +31,6 @@ Enfin, l'absence d'appui pendant 3 secondes provoque une remise à zéro des cal
 
 Je vous ai fait une petite vidéo et le code source est disponible sur github comme d'habitude, en attendant l'intégration dans le compte de la fédération Taptempo que je compte bien rejoindre.
 
+![GitHub Logo](taptempo_stm32f469i-discovery.jpg)
 
 
