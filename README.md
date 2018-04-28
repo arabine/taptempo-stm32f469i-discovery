@@ -13,11 +13,15 @@ convert -background black -fill white -gravity Center -size 100x200 -font DejaVu
 
 Puis, on les transforme en tableau d'octets :
 
+```shell
 ./file2c -c -n digit_0 -f 0.bmp 0.bmp romfs_0.h
+```
 
 'file2c' étant un petit utiltaire fournit par uGfx. Notez que Linux intègre de base un utilitaire simulaire, je l'ai découvert il y a peu : 
 
+```shell
 xxd -i -a filename
+```
 
 On génère ainsi les 10 chiffres utilisés pour l'affichage des BMP (pas l'image mais le nombre d'appuis par seconde, faut suivre un peu !).
 
