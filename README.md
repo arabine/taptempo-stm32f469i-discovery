@@ -9,7 +9,9 @@ L'exemple n'utilise pas de RTOS mais un scheduler simple proposé par la librair
 
 Les digits sont des images BMP générées avec ImageMagick par la commande suivante :
 
+```shell
 convert -background black -fill white -gravity Center -size 100x200 -font DejaVu-Sans-Mono  caption:"0" 0.bmp
+```
 
 Puis, on les transforme en tableau d'octets :
 
